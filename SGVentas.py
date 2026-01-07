@@ -23,7 +23,7 @@ st.set_page_config(
 )
 
 # ------------------ Sidebar ------------------
-st.sidebar.title("SGVentas")
+#st.sidebar.title("SGVentas")
 
 opcion = st.sidebar.selectbox(
     "Menú principal",
@@ -48,3 +48,4 @@ elif opcion == "Catálogo":
 elif opcion == "Registros del día":
     st.header("Registros del día")
     st.info("Módulo de registros en construcción")
+

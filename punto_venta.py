@@ -149,7 +149,7 @@ def render_punto_venta(ventas):
                 #total = df_carrito["subtotal"].sum()
                 st.sidebar.markdown("---")
                 st.sidebar.title("Total de la venta")
-                st.sucess(f"**Subtotal:** ${total:,.2f}")
+                st.markdown(f"**Subtotal:** ${total:,.2f}")
                 st.sidebar.markdown(
                     f"<div style='font-size: 80px; font-weight: bold; color: #2E8B57;'>${total:,.2f}</div>",
                     unsafe_allow_html=True
@@ -200,5 +200,6 @@ def render_punto_venta(ventas):
                 """,
                 height=0
             )
+
 
 

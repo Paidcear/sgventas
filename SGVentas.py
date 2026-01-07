@@ -18,8 +18,8 @@ ventas = st.session_state.ventas
 # Configuración base
 st.set_page_config(
     page_title="SGVentas",
-    layout="wide",
-    initial_sidebar_state="expanded"
+    layout="wide"
+    #initial_sidebar_state="expanded"
 )
 
 # ------------------ Sidebar ------------------
@@ -48,4 +48,5 @@ elif opcion == "Catálogo":
 elif opcion == "Registros del día":
     st.header("Registros del día")
     st.info("Módulo de registros en construcción")
+
 

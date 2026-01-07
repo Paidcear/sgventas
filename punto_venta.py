@@ -156,7 +156,7 @@ def render_punto_venta(ventas):
                 )
 
                 # REGISTRAR VENTA
-                if st.sidebar.button("**Registrar venta**"):
+                if st.button("**Registrar venta**"):
 
                     # DESCONTAR STOCK EN BD
                     for item in st.session_state.carrito:
@@ -200,6 +200,7 @@ def render_punto_venta(ventas):
                 """,
                 height=0
             )
+
 
 
 
